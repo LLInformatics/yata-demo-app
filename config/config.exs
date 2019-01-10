@@ -35,7 +35,7 @@ config :yatapp,
   enable_websocket: true,
   var_prefix: "%{",
   var_suffix: "}",
-  fallback: false
+  fallback: true
 
 # Import environment specific config. This must remain at the bottom
 # of this file so it overrides the configuration defined above.
