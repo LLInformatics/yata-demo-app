@@ -8,7 +8,7 @@ use Mix.Config
 # Configures the endpoint
 config :yata_demo_app, YataDemoAppWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "Uan9Ht7ZftTvheJuqqSHOkkIuvmTC77LIKvjP2tZJ3sqao86OGd6FqmIfehO1nkV",
+  secret_key_base: System.get_env("SECRET_KEY"),
   render_errors: [view: YataDemoAppWeb.ErrorView, accepts: ~w(html json)],
   pubsub: [name: YataDemoApp.PubSub,
            adapter: Phoenix.PubSub.PG2]
