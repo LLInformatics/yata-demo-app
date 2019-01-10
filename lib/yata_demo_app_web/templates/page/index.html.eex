@@ -1,27 +1,37 @@
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
   <div class="container">
-    <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+    <a class="navbar-brand js-scroll-trigger" href="#page-top"><%= t("navbar.brand") %></a>
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-      Menu
+      <%= t("navigation.menu") %>
       <i class="fas fa-bars"></i>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav text-uppercase ml-auto">
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+          <a class="nav-link js-scroll-trigger" href="#services">
+            <%= t("navigation.services") %>
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+          <a class="nav-link js-scroll-trigger" href="#portfolio">
+            <%= t("navigation.portfolio") %>
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          <a class="nav-link js-scroll-trigger" href="#about">
+            <%= t("navigation.about") %>
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+          <a class="nav-link js-scroll-trigger" href="#team">
+            <%= t("navigation.team") %>
+          </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          <a class="nav-link js-scroll-trigger" href="#contact">
+            <%= t("navigation.contact") %>
+          </a>
         </li>
       </ul>
     </div>
@@ -32,9 +42,9 @@
 <header class="masthead">
   <div class="container">
     <div class="intro-text">
-      <div class="intro-lead-in">Welcome To Our Studio!</div>
-      <div class="intro-heading text-uppercase">It's Nice To Meet You</div>
-      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
+      <div class="intro-lead-in"><%= t("header.intro.lead_in") %></div>
+      <div class="intro-heading text-uppercase"><%= t("header.intro.heading") %></div>
+      <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services"><%= t("header.tell_more") %></a>
     </div>
   </div>
 </header>
@@ -44,8 +54,8 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">Services</h2>
-        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+        <h2 class="section-heading text-uppercase"><%= t("services.heading") %></h2>
+        <h3 class="section-subheading text-muted"><%= t("services.subheading") %></h3>
       </div>
     </div>
     <div class="row text-center">
@@ -54,24 +64,24 @@
           <i class="fas fa-circle fa-stack-2x text-primary"></i>
           <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
         </span>
-        <h4 class="service-heading">E-Commerce</h4>
-        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+        <h4 class="service-heading"><%= t("services.e_commerce.title") %></h4>
+        <p class="text-muted"><%= t("services.e_commerce.text") %></p>
       </div>
       <div class="col-md-4">
         <span class="fa-stack fa-4x">
           <i class="fas fa-circle fa-stack-2x text-primary"></i>
           <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
         </span>
-        <h4 class="service-heading">Responsive Design</h4>
-        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+        <h4 class="service-heading"><%= t("services.responsive_design.title") %></h4>
+        <p class="text-muted"><%= t("services.responsive_design.text") %></p>
       </div>
       <div class="col-md-4">
         <span class="fa-stack fa-4x">
           <i class="fas fa-circle fa-stack-2x text-primary"></i>
           <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
         </span>
-        <h4 class="service-heading">Web Security</h4>
-        <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+        <h4 class="service-heading"><%= t("services.web_security.title") %></h4>
+        <p class="text-muted"><%= t("services.web_security.text") %></p>
       </div>
     </div>
   </div>
@@ -82,8 +92,8 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">Portfolio</h2>
-        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+        <h2 class="section-heading text-uppercase"><%= t("portfolio.heading") %></h2>
+        <h3 class="section-subheading text-muted"><%= t("portfolio.subheading") %></h3>
       </div>
     </div>
     <div class="row">
@@ -97,8 +107,8 @@
           <img class="img-fluid" src="/images/portfolio/01-thumbnail.jpg" alt="">
         </a>
         <div class="portfolio-caption">
-          <h4>Threads</h4>
-          <p class="text-muted">Illustration</p>
+          <h4><%= t("portfolio.threads.title") %></h4>
+          <p class="text-muted"><%= t("portfolio.thread.text") %></p>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 portfolio-item">
@@ -111,8 +121,8 @@
           <img class="img-fluid" src="/images/portfolio/02-thumbnail.jpg" alt="">
         </a>
         <div class="portfolio-caption">
-          <h4>Explore</h4>
-          <p class="text-muted">Graphic Design</p>
+          <h4><%= t("portfolio.explore.title") %></h4>
+          <p class="text-muted"><%= t("portfolio.explore.text") %></p>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 portfolio-item">
@@ -125,8 +135,8 @@
           <img class="img-fluid" src="/images/portfolio/03-thumbnail.jpg" alt="">
         </a>
         <div class="portfolio-caption">
-          <h4>Finish</h4>
-          <p class="text-muted">Identity</p>
+          <h4><%= t("portfolio.finish.title") %></h4>
+          <p class="text-muted"><%= t("portfolio.finish.text") %></p>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 portfolio-item">
@@ -139,8 +149,8 @@
           <img class="img-fluid" src="/images/portfolio/04-thumbnail.jpg" alt="">
         </a>
         <div class="portfolio-caption">
-          <h4>Lines</h4>
-          <p class="text-muted">Branding</p>
+          <h4><%= t("portfolio.lines.title") %></h4>
+          <p class="text-muted"><%= t("portfolio.lines.text") %></p>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 portfolio-item">
@@ -153,8 +163,8 @@
           <img class="img-fluid" src="/images/portfolio/05-thumbnail.jpg" alt="">
         </a>
         <div class="portfolio-caption">
-          <h4>Southwest</h4>
-          <p class="text-muted">Website Design</p>
+          <h4><%= t("portfolio.southwest.title") %></h4>
+          <p class="text-muted"><%= t("portfolio.southwest.text") %></p>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 portfolio-item">
@@ -167,8 +177,8 @@
           <img class="img-fluid" src="/images/portfolio/06-thumbnail.jpg" alt="">
         </a>
         <div class="portfolio-caption">
-          <h4>Window</h4>
-          <p class="text-muted">Photography</p>
+          <h4><%= t("portfolio.window.title") %></h4>
+          <p class="text-muted"><%= t("portfolio.window.text") %></p>
         </div>
       </div>
     </div>
@@ -180,8 +190,8 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">About</h2>
-        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+        <h2 class="section-heading text-uppercase"><%= t("about.heading") %></h2>
+        <h3 class="section-subheading text-muted"><%= t("about.subheading") %></h3>
       </div>
     </div>
     <div class="row">
@@ -193,11 +203,11 @@
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h4>2009-2011</h4>
-                <h4 class="subheading">Our Humble Beginnings</h4>
+                <h4><%= t("timeline.2009.heading") %></h4>
+                <h4 class="subheading"><%= t("timeline.2009.subheading") %></h4>
               </div>
               <div class="timeline-body">
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                <p class="text-muted"><%= t("timeline.2009.text") %></p>
               </div>
             </div>
           </li>
@@ -207,11 +217,11 @@
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h4>March 2011</h4>
-                <h4 class="subheading">An Agency is Born</h4>
+                <h4><%= t("timeline.2011.heading") %></h4>
+                <h4 class="subheading"><%= t("timeline.2011.subheading") %></h4>
               </div>
               <div class="timeline-body">
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                <p class="text-muted"><%= t("timeline.2011.text") %></p>
               </div>
             </div>
           </li>
@@ -221,11 +231,11 @@
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h4>December 2012</h4>
-                <h4 class="subheading">Transition to Full Service</h4>
+                <h4><%= t("timeline.2012.heading") %></h4>
+                <h4 class="subheading"><%= t("timeline.2012.subheading") %></h4>
               </div>
               <div class="timeline-body">
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                <p class="text-muted"><%= t("timeline.2012.text") %></p>
               </div>
             </div>
           </li>
@@ -235,20 +245,16 @@
             </div>
             <div class="timeline-panel">
               <div class="timeline-heading">
-                <h4>July 2014</h4>
-                <h4 class="subheading">Phase Two Expansion</h4>
+                <h4><%= t("timeline.2014.heading") %></h4>
+                <h4 class="subheading"><%= t("timeline.2014.subheading") %></h4>
               </div>
               <div class="timeline-body">
-                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                <p class="text-muted"><%= t("timeline.2014.text") %></p>
               </div>
             </div>
           </li>
           <li class="timeline-inverted">
-            <div class="timeline-image">
-              <h4>Be Part
-                <br>Of Our
-                <br>Story!</h4>
-            </div>
+            <%= text_to_html(t("timeline.image.text"), escape: false, wrapper_tag: :div, attributes: [class: "timeline-image"]) %>
           </li>
         </ul>
       </div>
@@ -261,16 +267,16 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">Our Amazing Team</h2>
-        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+        <h2 class="section-heading text-uppercase"><%= t("team.heading") %></h2>
+        <h3 class="section-subheading text-muted"><%= t("team.subheading") %></h3>
       </div>
     </div>
     <div class="row">
       <div class="col-sm-4">
         <div class="team-member">
           <img class="mx-auto rounded-circle" src="/images/team/1.jpg" alt="">
-          <h4>Kay Garland</h4>
-          <p class="text-muted">Lead Designer</p>
+          <h4><%= t("team.kay_garland") %></h4>
+          <p class="text-muted"><%= t("team.lead_designer") %></p>
           <ul class="list-inline social-buttons">
             <li class="list-inline-item">
               <a href="#">
@@ -293,8 +299,8 @@
       <div class="col-sm-4">
         <div class="team-member">
           <img class="mx-auto rounded-circle" src="/images/team/2.jpg" alt="">
-          <h4>Larry Parker</h4>
-          <p class="text-muted">Lead Marketer</p>
+          <h4><%= t("team.larry_parker") %></h4>
+          <p class="text-muted"><%= t("team.lead_marketer") %></p>
           <ul class="list-inline social-buttons">
             <li class="list-inline-item">
               <a href="#">
@@ -317,8 +323,8 @@
       <div class="col-sm-4">
         <div class="team-member">
           <img class="mx-auto rounded-circle" src="/images/team/3.jpg" alt="">
-          <h4>Diana Pertersen</h4>
-          <p class="text-muted">Lead Developer</p>
+          <h4><%= t("team.diana_pertersen") %></h4>
+          <p class="text-muted"><%= t("team.lead_developer") %></p>
           <ul class="list-inline social-buttons">
             <li class="list-inline-item">
               <a href="#">
@@ -341,7 +347,7 @@
     </div>
     <div class="row">
       <div class="col-lg-8 mx-auto text-center">
-        <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+        <p class="large text-muted"><%= t("team.text") %></p>
       </div>
     </div>
   </div>
@@ -380,8 +386,8 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">Contact Us</h2>
-        <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+        <h2 class="section-heading text-uppercase"><%= t("contact.heading") %></h2>
+        <h3 class="section-subheading text-muted"><%= t("contact.subheading") %></h3>
       </div>
     </div>
     <div class="row">
@@ -411,7 +417,7 @@
             <div class="clearfix"></div>
             <div class="col-lg-12 text-center">
               <div id="success"></div>
-              <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
+              <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit"><%= t("contact.submit") %></button>
             </div>
           </div>
         </form>
@@ -425,7 +431,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-4">
-        <span class="copyright">Copyright &copy; Your Website 2018</span>
+        <span class="copyright"><%= text_to_html(t("copyright"), escape: false) %></span>
       </div>
       <div class="col-md-4">
         <ul class="list-inline social-buttons">
@@ -449,10 +455,10 @@
       <div class="col-md-4">
         <ul class="list-inline quicklinks">
           <li class="list-inline-item">
-            <a href="#">Privacy Policy</a>
+            <a href="#"><%= t("privacy_policy") %></a>
           </li>
           <li class="list-inline-item">
-            <a href="#">Terms of Use</a>
+            <a href="#"><%= t("term_of_use") %></a>
           </li>
         </ul>
       </div>
