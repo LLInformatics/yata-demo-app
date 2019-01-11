@@ -33,6 +33,21 @@
             <%= t("navigation.contact") %>
           </a>
         </li>
+        <li class="nav-item">
+          <%= link("EN", to: page_path(@conn, :locale, "en"), class: "nav-link js-scroll-trigger") %>
+        </li>
+        <div class="nav-link">
+          /
+        </div>
+        <li class="nav-item">
+          <%= link("DE", to: page_path(@conn, :locale, "de"), class: "nav-link js-scroll-trigger") %>
+        </li>
+        <div class="nav-link">
+          /
+        </div>
+        <li class="nav-item">
+          <%= link("PL", to: page_path(@conn, :locale, "pl"), class: "nav-link js-scroll-trigger") %>
+        </li>
       </ul>
     </div>
   </div>

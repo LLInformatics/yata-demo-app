@@ -12,6 +12,10 @@ defmodule YataDemoApp.Application do
       supervisor(YataDemoAppWeb.Endpoint, []),
       # Start your own worker by calling: YataDemoApp.Worker.start_link(arg1, arg2, arg3)
       # worker(YataDemoApp.Worker, [arg1, arg2, arg3]),
+      %{
+        id: LocaleGen,
+        start: {YataDemoApp.LocaleGen, :start_link, [Yatapp.locale()]}
+      }
     ]
 
     # See https://hexdocs.pm/elixir/Supervisor.html

@@ -1,4 +1,5 @@
 defmodule YataDemoApp.Utils.Locale do
+
   @moduledoc """
   Helpers for dealing with localization.
   """
@@ -8,7 +9,7 @@ defmodule YataDemoApp.Utils.Locale do
   """
   @spec current_locale() :: String.t()
   def current_locale do
-    Process.get(__MODULE__) || Yatapp.locale()
+    GenServer.call(YataDemoApp.LocaleGen, :get)
   end
 
   @doc """
@@ -16,7 +17,7 @@ defmodule YataDemoApp.Utils.Locale do
   """
   @spec put_locale(String.t()) :: String.t()
   def put_locale(locale) do
-    Process.put(__MODULE__, locale)
+    GenServer.cast(YataDemoApp.LocaleGen, {:put, locale})
   end
 
   @doc """
