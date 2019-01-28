@@ -19,8 +19,8 @@ config :logger, :console,
   metadata: [:request_id]
 
 config :yatapp,
-  api_key: System.get_env("YATA_API_KEY"),
-  project_id: System.get_env("YATA_PROJECT_ID"),
+  api_key: System.get_env("YATA_DEMO_API_KEY"),
+  project_id: System.get_env("YATA_DEMO_PROJECT_ID"),
   default_locale: "en",
   locales: ~w(en pl de),
   otp_app: :yata_demo_app,
