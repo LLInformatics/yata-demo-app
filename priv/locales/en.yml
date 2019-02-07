@@ -1,0 +1,105 @@
+---
+about:
+  heading: About
+  subheading: Experienced, professional team.
+app:
+  title: Hello Yata Demo App!
+contact:
+  form:
+    email: Your Email *
+    error:
+      email: Please enter your email address.
+      message: Please enter a message.
+      name: Please enter your name.
+      phone: Please enter your phone number.
+    message: Your Message *
+    name: Your Name *
+    phone: Your Phone *
+  heading: Contact Us
+  subheading: Let’s make products your clients want!
+  submit: Send Message
+copyright: Copyright &copy; Your Website 2018
+header:
+  intro:
+    heading: It's Nice To Meet You
+    lead_in: Welcome To Our Studio!
+  tell_more: Tell Me More
+navbar:
+  brand: Start Bootstrap
+navigation:
+  about: About
+  contact: Contact
+  menu: Menu
+  portfolio: Portfolio
+  services: Services
+  team: Team
+portfolio:
+  explore:
+    text: Graphic Design
+    title: Explore
+  finish:
+    text: Identity
+    title: Finish
+  heading: Portfolio
+  lines:
+    text: Branding
+    title: Lines
+  southwest:
+    text: Website Design
+    title: Southwest
+  subheading: We create usable & eye candy products.
+  thread:
+    text: Illustration
+  threads:
+    title: Threads
+  window:
+    text: Photography
+    title: Window
+privacy_policy: Privacy Policy
+services:
+  e_commerce:
+    text: Store or marketplace development, integration, customization, migration.
+    title: E-Commerce
+  heading: Services
+  responsive_design:
+    text: We help take the complexity out of responsive design with details on Design,
+      Development and Strategy.
+    title: Responsive Design
+  subheading: Let our expertise help bring your ideas to life.
+  web_security:
+    text: Select the only completely automated website security to protect your website
+      from hackers, accelerate performance and boost conversions.
+    title: Web Security
+team:
+  diana_pertersen: Diana Pertersen
+  heading: Our Amazing Team
+  kay_garland: Kay Garland
+  larry_parker: Larry Parker
+  lead_designer: Lead Designer
+  lead_developer: Lead Developer
+  lead_marketer: Lead Marketer
+  subheading: Our Clients are our Teammates.
+  text: We work together to accomplish their goals. We talk about the project, we
+    plan together, we execute and celebrate the results.
+term_of_use: Terms of Use
+timeline:
+  '2009':
+    heading: 2009-2011
+    subheading: Our Humble Beginnings
+    text: Beginnings were bit hard as usual. So many things were new but with our
+      determination and passion, we were on the good path.
+  '2011':
+    heading: March 2011
+    subheading: An Agency is Born
+    text: That was very exciting, we finally launched our Agency!
+  '2012':
+    heading: December 2012
+    subheading: Transition to Full Service
+    text: The beginnings were modest but now we can announce that we managed to create
+      a full-service agency. We are so happy!
+  '2014':
+    heading: July 2014
+    subheading: Phase Two Expansion
+    text: Our current goal is to transform the local brand into a global one.
+  image:
+    text: "<h4>Be Part<br>Of Our<br>Story!</h4>"

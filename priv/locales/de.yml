@@ -1,0 +1,106 @@
+---
+about:
+  heading: Über unsere Firma
+  subheading: Erfahrenes, professionelles Team.
+app:
+  title: Hello Yata Demo App!
+contact:
+  form:
+    email: Deine E-Mail *
+    error:
+      email: Geben Sie bitte Ihre Email-Adresse ein.
+      message: Bitte geben Sie eine Nachricht ein.
+      name: Bitte geben Sie Ihren Namen ein.
+      phone: Bitte gib deine Telefonnummer ein.
+    message: Deine Nachricht *
+    name: Dein Name *
+    phone: Dein Telefon *
+  heading: Kontaktiere Uns
+  subheading: Machen wir Produkte, die Ihre Kunden wünschen!
+  submit: Nachricht senden
+copyright: Copyright &copy; Your Website 2018
+header:
+  intro:
+    heading: Sehr nett dich kennzulernen
+    lead_in: Willkommen in unserem Studio!
+  tell_more: Erzähl mir mehr
+navbar:
+  brand: Start Bootrstrap
+navigation:
+  about: Über unsere Firma
+  contact: Kontakt
+  menu: Menu
+  portfolio: Portfolio
+  services: Dienstleistungen
+  team: Team
+portfolio:
+  explore:
+    text: Grafikdesign
+    title: Explore
+  finish:
+    text: Identität
+    title: Finish
+  heading: Portfolio
+  lines:
+    text: Branding
+    title: Lines
+  southwest:
+    text: Website Design
+    title: Southwest
+  subheading: Wir erstellen brauchbare Produkte und Augensüßigkeiten.
+  thread:
+    text: Illustration
+  threads:
+    title: Threads
+  window:
+    text: Fotografie
+    title: Window
+privacy_policy: Datenschutz-Bestimmungen
+services:
+  e_commerce:
+    text: Shop- oder Marktplatzentwicklung, Integration, Anpassung, Migration.
+    title: E-Commerce
+  heading: Dienstleistungen
+  responsive_design:
+    text: Wir helfen Ihnen, die Komplexität des responsiven Designs mit Details zu
+      Design, Entwicklung und Strategie zu lösen.
+    title: Responsive Design
+  subheading: Lassen Sie unser Know-how Ihre Ideen zum Leben erwecken.
+  web_security:
+    text: Wählen Sie die einzige vollständig automatisierte Website-Sicherheit aus,
+      um Ihre Website vor Hackern zu schützen, die Leistung zu steigern und die Conversions
+      zu steigern.
+    title: Web-Sicherheit
+team:
+  diana_pertersen: Diana Pertersen
+  heading: Unser tolles Team
+  kay_garland: Kay Garland
+  larry_parker: Larry Parker
+  lead_designer: Lead Designer
+  lead_developer: Lead Developer
+  lead_marketer: Lead Marketer
+  subheading: Unsere Kunden sind unsere Teamkollegen.
+  text: Wir arbeiten zusammen, um ihre Ziele zu erreichen. Wir sprechen über das Projekt,
+    planen gemeinsam, führen die Ergebnisse durch und feiern sie.
+term_of_use: Nutzungsbedingungen
+timeline:
+  '2009':
+    heading: 2009-2011
+    subheading: Unsere bescheidenen Anfänge
+    text: Der Anfang war wie immer etwas hart. So viele Dinge waren neu, aber mit
+      unserer Entschlossenheit und Leidenschaft waren wir auf gutem Weg.
+  '2011':
+    heading: März 2011
+    subheading: Eine Agentur ist geboren
+    text: Das war sehr aufregend, wir haben endlich unsere Agentur gegründet!
+  '2012':
+    heading: Dezember 2012
+    subheading: Übergang zum Full Service
+    text: Die Anfänge waren bescheiden, aber jetzt können wir bekannt geben, dass
+      wir eine Full-Service-Agentur geschaffen haben. Wir sind so glücklich!
+  '2014':
+    heading: Juli 2014
+    subheading: Phase zwei Erweiterung
+    text: Unser aktuelles Ziel ist es, die lokale Marke in eine globale zu verwandeln.
+  image:
+    text: "<h4>Seien Sie<br>ein Teil unserer<br>Geschichte!</h4>"

@@ -1,0 +1,105 @@
+---
+about:
+  heading: O Nas
+  subheading: Doświadczony, profesjonalny zespół.
+app:
+  title: Witaj Yata Demo App!
+contact:
+  form:
+    email: Twój Email *
+    error:
+      email: Podaj swój adres mailowy.
+      message: Wprowadź wiadomość.
+      name: Wprowadź swoje imię.
+      phone: Podaj swój numer telefonu.
+    message: Twoja Wiadomość *
+    name: Twoje Imię *
+    phone: Twój Numer Telefonu *
+  heading: Skontaktuj się z Nami
+  subheading: Twórzmy produkty, których oczekują Twoi klienci!
+  submit: Wyślij Wiadomość
+copyright: Copyright &copy; Your Website 2018
+header:
+  intro:
+    heading: Miło Cię Poznać
+    lead_in: Witamy W Naszym Studio!
+  tell_more: Więcej
+navbar:
+  brand: Start Bootstrap
+navigation:
+  about: O Nas
+  contact: Kontakt
+  menu: Menu
+  portfolio: Portfolio
+  services: Usługi
+  team: Zespół
+portfolio:
+  explore:
+    text: Projekt Graficzny
+    title: Explore
+  finish:
+    text: Tożsamość
+    title: Finish
+  heading: Portfolio
+  lines:
+    text: Branding
+    title: Lines
+  southwest:
+    text: Projekt Strony Internetowej
+    title: Southwest
+  subheading: Tworzymy produkty użytkowe i miłe dla oka.
+  thread:
+    text: Ilustracje
+  threads:
+    title: Threads
+  window:
+    text: Fotografia
+    title: Window
+privacy_policy: Polityka Prywatności
+services:
+  e_commerce:
+    text: Tworzenie sklepu, integracja, dostosowywanie, migracja.
+    title: E-Commerce
+  heading: Usługi
+  responsive_design:
+    text: Pomagamy w złożeniu z responsywnego projektu ze szczegółami dotyczącymi
+      Projektu, Rozwoju i Strategii.
+    title: Responsywny Projekt
+  subheading: Pozwól, aby nasza wiedza pomogła w urzeczywistnieniu Twoich pomysłów.
+  web_security:
+    text: Wybierz tylko całkowicie zautomatyzowane zabezpieczenia witryny, aby chronić
+      swoją witrynę przed hakerami, przyspiesz wydajność i zwiększ liczbę konwersji.
+    title: Bezpieczeństwo
+team:
+  diana_pertersen: Diana Pertersen
+  heading: Nasz Niesamowity Zespół
+  kay_garland: Kay Garland
+  larry_parker: Larry Parker
+  lead_designer: Lead Designer
+  lead_developer: Lead Developer
+  lead_marketer: Lead Marketer
+  subheading: Nasi klienci to nasi koledzy.
+  text: Pracujemy razem, aby osiągnąć swoje cele. Rozmawiamy o projekcie, planujemy
+    razem, wykonujemy i świętujemy rezultaty.
+term_of_use: Zasady korzystania z serwisu
+timeline:
+  '2009':
+    heading: 2009-2011
+    subheading: Nasze Skromne Początki
+    text: Początki były jak zwykle trudne. Tak wiele rzeczy było nowych, ale z naszą
+      determinacją i pasją byliśmy na dobrej drodze.
+  '2011':
+    heading: Marzec 2011
+    subheading: Narodziny Agencji
+    text: To było bardzo ekscytujące, w końcu uruchomiliśmy naszą agencję!
+  '2012':
+    heading: Grudzień 2012
+    subheading: Pełna Usługa
+    text: Początki były skromne, ale teraz możemy ogłosić, że udało nam się stworzyć
+      agencję full-service. Jesteśmy naprawdę szczęśliwi!
+  '2014':
+    heading: Lipiec 2014
+    subheading: Druga Faza Ekspansja
+    text: Naszym obecnym celem jest przekształcenie lokalnej marki w globalną.
+  image:
+    text: "<h4>Bądź Częścią<br>Naszej<br>Historii!</h4>"
