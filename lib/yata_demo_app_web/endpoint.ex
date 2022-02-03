@@ -1,7 +1,9 @@
 defmodule YataDemoAppWeb.Endpoint do
   use Phoenix.Endpoint, otp_app: :yata_demo_app
 
-  socket "/socket", YataDemoAppWeb.UserSocket
+  socket "/socket", YataDemoAppWeb.UserSocket,
+    websocket: true,
+    longpoll: false
 
   # Serve at "/" the static files from "priv/static" directory.
   #
@@ -25,7 +27,7 @@ defmodule YataDemoAppWeb.Endpoint do
   plug Plug.Parsers,
     parsers: [:urlencoded, :multipart, :json],
     pass: ["*/*"],
-    json_decoder: Poison
+    json_decoder: Phoenix.json_library()
 
   plug Plug.MethodOverride
   plug Plug.Head

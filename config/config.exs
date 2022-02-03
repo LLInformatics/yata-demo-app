@@ -5,6 +5,8 @@
 # is restricted to this project.
 use Mix.Config
 
+config :phoenix, :json_library, Jason
+
 # Configures the endpoint
 config :yata_demo_app, YataDemoAppWeb.Endpoint,
   url: [host: "localhost"],
