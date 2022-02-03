@@ -32,6 +32,10 @@ config :yatapp,
   translation_file_parser: Jason,
   root: false,
   strip_empty: false,
+  http: %{
+    timeout: 50_000,
+    recv_timeout: 50_000
+  },
   enable_websocket: true,
   var_prefix: "%{",
   var_suffix: "}",
