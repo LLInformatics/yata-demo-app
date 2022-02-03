@@ -5,7 +5,7 @@ defmodule YataDemoApp.Mixfile do
     [
       app: :yata_demo_app,
       version: "0.0.1",
-      elixir: "~> 1.4",
+      elixir: "~> 1.12.2",
       elixirc_paths: elixirc_paths(Mix.env),
       compilers: [:phoenix, :gettext] ++ Mix.compilers,
       start_permanent: Mix.env == :prod,
@@ -39,7 +39,7 @@ defmodule YataDemoApp.Mixfile do
       {:gettext, "~> 0.11"},
       {:cowboy, "~> 1.0"},
       {:plug_cowboy, "~> 1.0"},
-      {:yatapp, "~> 0.2.4"},
+      {:yatapp, "~> 0.3.0"},
       {:jason, "~> 1.1"}
     ]
   end
